@@ -16,7 +16,8 @@ plugins = {
   'vim-ruby'          => 'https://github.com/vim-ruby/vim-ruby.git',             
   'vim-sensible'      => 'git://github.com/tpope/vim-sensible.git',              
   'vim-table-mode'    => 'https://github.com/dhruvasagar/vim-table-mode.git',    
-  'YouCompleteMe'     => 'https://github.com/Valloric/YouCompleteMe.git',        
+  'YouCompleteMe'     => 'https://github.com/Valloric/YouCompleteMe.git',
+  'vim-elixir'        => 'https://github.com/elixir-lang/vim-elixir.git',
   'command-t'         => 'https://github.com/wincent/command-t.git' 
 }
 
