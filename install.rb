@@ -18,6 +18,7 @@ plugins = {
   'vim-table-mode'    => 'https://github.com/dhruvasagar/vim-table-mode.git',    
   'YouCompleteMe'     => 'https://github.com/Valloric/YouCompleteMe.git',
   'vim-elixir'        => 'https://github.com/elixir-lang/vim-elixir.git',
+  'vim-javascript'    => 'https://github.com/pangloss/vim-javascript.git',
   'command-t'         => 'https://github.com/wincent/command-t.git' 
 }
 
