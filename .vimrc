@@ -1,4 +1,25 @@
-execute pathogen#infect('bundle/{}', '~/.vim/bundle/{}')
+
+call plug#begin('~/.vim/plugged')
+Plug 'https://github.com/vim-scripts/Figlet.vim.git'
+Plug 'https://github.com/haya14busa/incsearch.vim.git'
+Plug 'https://github.com/yegappan/lid.git'
+Plug 'https://github.com/scrooloose/nerdtree.git'
+Plug 'https://github.com/majutsushi/tagbar.git'
+Plug 'https://github.com/xolox/vim-easytags.git'
+Plug 'https://github.com/fatih/vim-go.git'
+Plug 'https://github.com/ryanss/vim-hackernews.git'
+Plug 'https://github.com/xolox/vim-misc.git'
+Plug 'https://github.com/ngmy/vim-rubocop.git'
+Plug 'https://github.com/vim-ruby/vim-ruby.git'
+Plug 'git://github.com/tpope/vim-sensible.git'
+Plug 'https://github.com/dhruvasagar/vim-table-mode.git'
+Plug 'https://github.com/Valloric/YouCompleteMe.git'
+Plug 'https://github.com/elixir-lang/vim-elixir.git'
+Plug 'https://github.com/pangloss/vim-javascript.git'
+Plug 'https://github.com/wincent/command-t.git'
+call plug#end()
+
+"""editor configurations
 syntax on
 filetype plugin indent on
 let mapleader = ","
